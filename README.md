@@ -13,10 +13,15 @@ Instead of **adding** common files and folders to your plugin folder, you can **
 ## How To Use
 
 1. Download the repository as Zip file.
-2. Extract it
-3. Delete everything you don't need
-4. Integrate it into your own VCS
-5. Start working on your own plugin code
+2. Extract it to ``/path/to/your/cake/install/folder/app/[YourPluginName]``
+3. Optionally generate the plugin AppController and AppModel by executing
+`` shell
+cake bake plugin [YourPluginName]
+``
+4. Integrate your new plugin into your own VCS
+5. Delete everything you don't need
+6. Start working on your own plugin code by following the
+[plugin section in the CakePHP book](http://book.cakephp.org/2.0/en/plugins.html#creating-your-own-plugins)
 
 ## How To Publish Your Plugin
 
