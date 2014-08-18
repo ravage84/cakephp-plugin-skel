@@ -1,0 +1,42 @@
+{
+	"name": "ravage84/cakephp-plugin-skel",
+	"description": "A skeleton repo for CakePHP plugins",
+	"type": "cakephp-plugin",
+	"keywords":[
+		"cakephp",
+		"plugin",
+		"skeleton",
+		"skel",
+		"boilerplate"
+	],
+	"homepage": "https://github.com/ravage84/cakephp-plugin-skel",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Marc Würth",
+			"homepage": "https://github.com/ravage84/",
+			"mail": "ravage@bluewin.ch",
+			"role": "Lead developer"
+		},
+		{
+			"name": "Other contirbutors",
+			"homepage": "https://github.com/ravage84/cakephp-plugin-skel/graphs/contributors",
+			"role": "Contributors"
+		}
+	],
+	"support": {
+		"source": "https://github.com/ravage84/cakephp-plugin-skel",
+		"issues": "https://github.com/ravage84/cakephp-plugin-skel/issues",
+		"wiki":"https://github.com/ravage84/cakephp-plugin-skel/wiki"
+	},
+	"require": {
+		"php": ">=5.3.0",
+		"composer/installers": "*"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "3.7.*"
+	},
+	"extra": {
+		"installer-name": "SkeletonPlugin"
+	}
+}
