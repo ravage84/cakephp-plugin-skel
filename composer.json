@@ -37,6 +37,6 @@
 		"phpunit/phpunit": "3.7.*"
 	},
 	"extra": {
-		"installer-name": "SkeletonPlugin"
+		"installer-name": "PluginSkeleton"
 	}
 }

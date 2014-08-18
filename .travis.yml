@@ -7,7 +7,7 @@ php:
 
 env:
   global:
-    - PLUGIN_NAME=SkeletonPlugin
+    - PLUGIN_NAME=PluginSkeleton
     - REQUIRE=""
 
   matrix:
