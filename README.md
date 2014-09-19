@@ -13,7 +13,7 @@ Instead of **adding** common files and folders to your plugin folder, you can **
 ## How To Use
 
 1. Download the repository as Zip file.
-2. Extract it to ``/path/to/your/cake/install/folder/app/[YourPluginName]``
+2. Extract it to ``/path/to/your/cake/install/folder/app/Plugins[YourPluginName]``
 3. Optionally generate the plugin AppController and AppModel by executing
 `` shell
 cake bake plugin [YourPluginName]
