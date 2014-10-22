@@ -36,7 +36,7 @@ Asuming you are going to publish your plugin on GitHub, you should:
   - ``description``
   - ``keywords``
   - ``homepage``
-  - ``authors`, replace the "Lead Developer"
+  - ``authors``, replace the "Lead Developer"
   - ``support``
   - ``require``, if your plugin depends on vendor libraries
   - ``require``, if your plugin depends on vendor libraries for development
