@@ -43,7 +43,14 @@ Asuming you are going to publish your plugin on GitHub, you should:
   - ``extra/installer-name``, with your plugin name in CamelCase
 - Replace [README.md](README.md) by [PLUGIN_README.md](PLUGIN_README.md)
 - Adjust [CONTRIBUTING.md](CONTRIBUTING.md)
+- Cosider using/integrating:
+   - [Traivs CI](https://travis-ci.org/)
+   - [Scrutinizer CI](https://scrutinizer-ci.com/)
+   - [Coveralls](https://coveralls.io/)
+   - [AppVeyor](http://www.appveyor.com/)
 - Adjust the [.travis.yml](.travis.yml) by updating the following:
   - Replace ``PluginSkeleton`` by ``[YourPluginName]``
   - See [FriendsOfcake/Travis](https://github.com/FriendsOfCake/travis) for further options
+- Adjust the [Scrutinizer config file](.scrutinizer.yml) to your needs
+- Adjust the [AppVeyor config file](appveyor.yml) to your needs
 - Consult the [CakePHP book](http://book.cakephp.org/2.0/en/plugins.html#publish-your-plugin) for further steps
