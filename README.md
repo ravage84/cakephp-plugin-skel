@@ -25,7 +25,7 @@ cake bake plugin [YourPluginName]
 
 ## How To Publish Your Plugin
 
-Asuming you are going to publish your plugin on GitHub, you should:
+Assuming you are going to publish your plugin on GitHub, you should:
 
 - Create a public GitHub repo named ``your_username/cakephp-[your_plugin_name]``
 - Decide whether to use the GitHub Issues
