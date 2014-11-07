@@ -8,7 +8,7 @@ The idea behind this repository is quite simple:
 Every time you create a CakePHP plugin, you have to setup the folder structure and various auxiliary files, such as ``composer.json`` and ``.travis.yml``.
 
 This repository tries to keep you [DRY](http://en.wikipedia.org/wiki/Don%27t_repeat_yourself) by having setup everything - and most likely much more - you may need to get started writing your own plugin.
-Instead of **adding** common files and folders to your plugin folder, you can **remove** unneeded files and folders from it.
+**Instead of adding** common files and folders to your plugin folder, you can **remove unneeded files and folders** from it.
 
 ## How To Use
 
@@ -27,10 +27,10 @@ cake bake plugin [YourPluginName]
 
 Assuming you are going to publish your plugin on GitHub, you should:
 
-- Create a public GitHub repo named ``your_username/cakephp-[your_plugin_name]``
+- Create a new public GitHub repo named ``your_username/cakephp-[your_plugin_name]``
+- Decide what license to use
 - Decide whether to use the GitHub Issues
 - Decide whether to use the GitHub Wiki
-- Upload your code to GitHub
 - Adjust the [composer.json](composer.json) by updating the following keys:
   - ``name``
   - ``description``
@@ -39,11 +39,11 @@ Assuming you are going to publish your plugin on GitHub, you should:
   - ``authors``, replace the "Lead Developer"
   - ``support``
   - ``require``, if your plugin depends on vendor libraries
-  - ``require``, if your plugin depends on vendor libraries for development
+  - ``require-dev``, if your plugin depends on vendor libraries for development
   - ``extra/installer-name``, with your plugin name in CamelCase
-- Replace [README.md](README.md) by [PLUGIN_README.md](PLUGIN_README.md)
-- Adjust [CONTRIBUTING.md](CONTRIBUTING.md)
-- Cosider using/integrating:
+- Replace [README.md](README.md) by [PLUGIN_README.md](PLUGIN_README.md) and fill the gaps
+- Adjust [CONTRIBUTING.md](CONTRIBUTING.md) to your needs
+- Consider using/integrating:
    - [Traivs CI](https://travis-ci.org/)
    - [Scrutinizer CI](https://scrutinizer-ci.com/)
    - [Coveralls](https://coveralls.io/)
@@ -53,4 +53,5 @@ Assuming you are going to publish your plugin on GitHub, you should:
   - See [FriendsOfcake/Travis](https://github.com/FriendsOfCake/travis) for further options
 - Adjust the [Scrutinizer config file](.scrutinizer.yml) to your needs
 - Adjust the [AppVeyor config file](appveyor.yml) to your needs
+- Push your code to GitHub
 - Consult the [CakePHP book](http://book.cakephp.org/2.0/en/plugins.html#publish-your-plugin) for further steps
