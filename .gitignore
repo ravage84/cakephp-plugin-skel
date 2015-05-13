@@ -7,6 +7,10 @@
 /nbproject
 .idea
 
+# PHP Tools #
+#############
+/*.phar
+
 # OS generated files #
 ######################
 .DS_Store
