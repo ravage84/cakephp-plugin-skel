@@ -12,7 +12,7 @@ Intro Text
 
 ### Requirements
 
-- PHP >= 5.3
+- PHP >= 5.4
 - CakePHP 2.x
 
 ### Installation via composer
